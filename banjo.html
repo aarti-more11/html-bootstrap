@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banjo</title>
+
+  <!-- fav icon link -->
+
+  <link rel="icon" href="logo.png">
+
+  <!-- icon link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <style>
+    .bg-img{
+           position:absolute;
+           height: 100vh;
+           width: 100vw;
+           object-fit: cover;
+           filter:brightness(0.3);
+           top: 0;
+           left: 0;
+           z-index: -1;
+    }
+
+      P{
+        position:relative;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+
+      h6{
+        position:relative;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+  </style>
+
+</head>
+
+<body>
+
+<!-- background image -->
+<div class="container-fluid">
+  <img class="bg-img" src="hero-bg.jpg">
+</div>
+  
+<!-- nav bar -->
+<section class="header h5">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning text-decoration-underline mark bg-danger ms-3" href="banjo.html">BANJO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="About.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="dishes.html">Dishes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning bg-danger ms-5" href="booktable.html">Book a table</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<!-- main section -->
+<section class="main">
+  <div class="container-fluid">
+    <P class="display-4 text-warning pt-5 mt-5 ms-3">ENJOY YOUR HEALTHY DELICIOUS MEAL </P>
+    <p class="display-6 text-warning pb-5 mb-5 ms-3 ">Treat Yourself</p>  
+
+    <!-- card -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card ms-4" style="width: 16rem;" >
+          <img src="logo.png" class="card-img-top" alt="...">
+          <div class="card-body bg-dark">
+            <a href="booktable.html" class="btn btn-danger ms-5">Book a table</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+</body>
+</html>
+

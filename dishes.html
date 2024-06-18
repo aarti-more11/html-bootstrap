@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishes</title>
+
+    <!-- fav icon link -->
+    <link rel="icon" href="logo.png">
+
+    <!-- icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGz2l6GEfL7DbDvjz8/nAecFH3HBVr+gW5yNI7t3+jK5M" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-LtrjvnR4/JWI1k47GIl8uVSWtyJpJNp4ul5XT13tGz57hf9vjDDsyFZ33x4QuCs4" crossorigin="anonymous"></script>
+
+    <style>
+      
+       .bg-img{
+        position:absolute;
+        height: 170vh;
+        width: 100vw;
+        object-fit: cover;
+        filter:brightness(0.3);
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      P{
+        position:relative;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+    </style>
+
+</head>
+
+<body>
+
+  <section class="header h5">
+
+    <!-- background image -->
+    <div class="container-fluid">
+      <img class="bg-img" src="hero-bg.jpg">
+    </div>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning text-decoration-underline mark bg-danger ms-3" href="banjo.html">BANJO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-warning" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="About.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="dishes.html">Dishes</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning bg-danger ms-5" href="booktable.html">Book a table</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- cards for dishes -->
+    <div class="container overflow-hidden text-center">
+        <div class="row gy-4 mt-2">
+          <div class="col-4">
+            <div class="card" >
+                <img src="banjo.jpeg" class="card-img-top" alt="...">
+                <div class="" >
+                  <h5 class="">BANJO'S</h5>
+                  <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card" >
+                <img src="pizza_dish.jpg" class="card-img-top" alt="...">
+                <div class="">
+                  <h5 class="">PIZZA</h5>
+                  <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card" >
+                <img src="burger.webp" class="card-img-top" alt="...">
+                <div class="">
+                  <h5 class="">BURGER</h5>
+                  <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+                </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="container overflow-hidden text-center"> 
+      <div class="row gy-5 mt-1">
+        <div class="col-4">
+          <div class="card" >
+            <img src="combo_dish.jfif" class="card-img-top" alt="...">
+              <div class="">
+                <h5 class="">COMBO</h5>
+                <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+              </div>
+          </div>
+        </div>
+
+          <div class="col-4">
+            <div class="card">
+                <img src="maggi.jpeg" class="card-img-top" alt="...">
+                <div class="">
+                  <h5 class="">MAGGI</h5>
+                  <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+                </div>
+              </div>
+          </div>
+              
+    
+          <div class="col-4">
+            <div class="card" >
+              <img src="Momos.jpeg" class="card-img-top" alt="...">
+              <div class="">
+                <h5 class="">MOMOS</h5>
+                <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container overflow-hidden text-center"> 
+        <div class="row gy-5 mt-1">
+
+          <div class="col-4">
+            <div class="card" >
+              <img src="mojito.jpeg" class="card-img-top" alt="...">
+              <div class="">
+                <h5 class="">BEVERAGES</h5>
+                <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card" >
+              <img src="sandwichdish.jpeg" class="card-img-top" alt="...">
+              <div class="">
+                <h5 class="">SANDWICH</h5>
+                <a href="menu.html" class="btn btn-warning">Go to Menu</a>
+               </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+             
+</body>
+</html
+
+
